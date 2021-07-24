@@ -36,7 +36,7 @@ For deployment into aws environment
  cdk docs        open CDK documentation
 ```
 
-> Note: Application is not deployed as NAT gateways is charged per hour and dint want to incur any costs.
+> Note: Application is not deployed as NAT gateways is charged per hour and dint want to incur any costs. The application can be simply deployed using 'cdk deploy'
 
 Sample application screen shots for reference.
 
