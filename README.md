@@ -8,6 +8,9 @@
 - Landing page acting as health check URL.
 - Factorial can be calculated by passing the query param /factorial?num=<Non Negative Integer>
 
+> ecs construct has been choosen here to build a highly scalable app with app load balancer. Given the construct ease of use and the standard pattern to make a fargate load balanced app, the ecs construct pattern was used.
+>sample python based flask app has been used in such a way that we containerize the app by creating the docker artifacts from the local repo(and not from pre build docker image on ECR) . THis gives a flexibility to have a single app which is cdk bootstrapped, configured to build docker image from assets of the repo.
+
 
 ## Tech
 
